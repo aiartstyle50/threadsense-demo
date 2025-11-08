@@ -1,10 +1,10 @@
 import React from 'react';
-import Threadsense from './Threadsense.jsx';
+import ChaconneAI from '../ChaconneAI.jsx';
 
 /**
  * The root component for the application. It simply renders the
- * Threadsense dashboard which encapsulates all of the UI logic.
+ * ChaconneAI dashboard which encapsulates all of the UI logic.
  */
 export default function App() {
-  return <Threadsense />;
+  return <ChaconneAI />;
 }
